@@ -1,0 +1,207 @@
+:root {
+  --bs-primary-rgb: 244, 234, 234, 0.608;
+  --bs-secondary-rgb: 196, 168, 255;
+  --bs-info-rgb: 167, 168, 196;
+  --bs-border-color: #b0b3b54a;
+}
+
+body {
+  background: #090a1b;
+  scroll-behavior: smooth;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.btn-primary {
+  --bs-btn-bg: #ffffff04;
+}
+/* header */
+
+.lets-play-btn button {
+  font-size: 13px;
+}
+
+.btn-outline-primary {
+  --bs-btn-border-color: #ffffff1a;
+}
+
+.offcanvas{
+    background-color:#090a1b ;
+    color: #fff;
+    --bs-offcanvas-width: 280px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border-color: #ab39f999;
+  box-shadow:
+    0 0 5px rgba(147, 51, 234, 0.1),
+    0 0 15px rgba(147, 51, 234, 0.2),
+    0 0 30px rgba(147, 51, 234, 0.15);
+}
+
+.dot {
+  color: #a8ff87;
+  text-shadow: 0 0 12px #82ff54;
+}
+
+.hero-text,
+.step-gradiant,
+.meme span,
+.quiz-title h1,
+.score-title span {
+  background: linear-gradient(100deg, #b18aff 5%, #ed72d7 55%, #7bd9ff 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+.hero-btn-1,
+.meme button,
+.start-btn button,
+.que-btn button,
+.title-images,
+.play-btn {
+  padding: 10px 0;
+  background: linear-gradient(105deg, #8b5cf6, #d64ee7);
+  box-shadow: 0 10px 30px #a34cf833;
+}
+
+.hero-btn-2 {
+  padding: 10px 0;
+}
+
+.emoji-dot {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  /* font-size: 17px; */
+}
+
+.hero-img {
+  height: 150px;
+}
+
+
+/* category */
+
+.option-1 {
+  background:
+    radial-gradient(ellipse at 80% 28%, #8c5cf629, transparent 48%), #11132a;
+}
+
+.option-2 {
+  background:
+    radial-gradient(ellipse at 80% 28%, #ed62d729, transparent 48%), #11132a;
+}
+
+.option-3 {
+  background:
+    radial-gradient(ellipse at 80% 28%, #60c9ff26, transparent 48%), #11132a;
+}
+
+.link-primary:focus {
+  color: transparent !important;
+}
+.link-primary:hover {
+  color: #ab39f999 !important;
+}
+
+.meme-type {
+  transition: all 0.3s ease-in-out;
+}
+.meme-type:hover {
+  transform: translateY(-8px);
+  box-shadow:
+    0 0 5px rgba(147, 51, 234, 0.1),
+    0 0 15px rgba(147, 51, 234, 0.2),
+    0 0 30px rgba(147, 51, 234, 0.15);
+}
+
+/* meme */
+
+.meme,
+.quiz-sec,
+.quiz-question,
+.score-sec {
+  background:
+    radial-gradient(ellipse at 50% 120%, #a34cf82b, transparent 60%),
+    linear-gradient(110deg, #17132d, #11132a);
+  padding: 100px 0;
+  border: 1px solid #b18aff38;
+}
+
+/* quiz page */
+
+/* quiz banner */
+
+.score-troll-face {
+  height: 100px;
+  width: 100px;
+}
+
+.quiz-border {
+  height: 500px;
+  width: 500px;
+}
+
+.quiz-img img {
+  box-shadow:
+    0 0 5px rgba(147, 51, 234, 0.1),
+    0 0 15px rgba(147, 51, 234, 0.2),
+    0 0 30px rgba(147, 51, 234, 0.15);
+}
+
+/* quiz question */
+
+.progress {
+  --bs-progress-bg: #090a1b !important;
+  /* --bs-progress-bar-bg: linear-gradient(105deg, #8b5cf6, #d64ee7); */
+}
+
+.progress-bar {
+  background: linear-gradient(
+    100deg,
+    #b18aff 5%,
+    #ed72d7 55%,
+    #7bd9ff 100%
+  ) !important;
+}
+
+/* score */
+.quiz-score {
+  height: 60vh;
+}
+
+.score-result {
+  width: 170px;
+  height: 170px;
+  border: 10px solid rgb(196, 168, 255);
+}
+
+.play-again-btn button {
+  padding: 10px 100px;
+}
+
+.selected-option,
+.meme-category {
+  border: 1px solid #ab39f9b5;
+  box-shadow: 10px 10px 10px #e1c8f21a;
+}
+
+.selected-option:hover {
+  border-color: #ab39f9b5 !important;
+}
+
+@keyframes icon {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(5px);
+  }
+}
+#meme-icon {
+  animation: icon 1s ease-in-out infinite alternate;
+}
